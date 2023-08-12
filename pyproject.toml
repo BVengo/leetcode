@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "leetcode"
+version = "0.1.0"
+description = "Just me doing various LeetCode challenges in Python."
+authors = ["Benjamin van de Vorstenbosch <bencvdv@gmail.com>"]
+include = ["leetcode"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+poetry-plugin-sort = "^0.2.0"
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_format = "%(asctime)s.%(msecs)03d %(levelname)s %(message)s"
+log_cli_level = "DEBUG"
+
+[tool.flake8]
+max-line-length = 100
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

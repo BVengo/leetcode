@@ -1,0 +1,25 @@
+{
+    "todohighlight.keywords": [
+        {
+            "text": "!FASTEST",
+            "color": "green",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+        },
+        {
+            "text": "!SLOWEST",
+            "color": "red",
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+        }
+    ],
+    "[python]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.rulers": [
+            100
+        ]
+    }
+}
